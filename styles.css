@@ -90,7 +90,7 @@
     top: 77px;
 }
 .about-image-primary { 
-    opacity: 0.8;
+    opacity: 1.0;
     width: 500px;
     height: 446px;
     position: absolute;
@@ -102,7 +102,7 @@
     background-size: cover;
 }
 .about-image-secondary { 
-    opacity: 0.25;
+    opacity: 0.3;
     width: 500px;
     height: 446px;
     position: absolute;
@@ -110,6 +110,18 @@
     top: 0px;
     border-radius: 20px;
     background-image: url(images/01_kip_1_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-image-gradient { 
+    opacity: 0.7;
+    width: 500px;
+    height: 446px;
+    position: absolute;
+    left: 580px;
+    top: 0px;
+    border-radius: 20px;
+    background-image: url(images/04_kip_1_1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
