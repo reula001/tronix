@@ -193,20 +193,20 @@
     top: 0px;
 }
 .partner-logo-siemens { 
-    width: 140px;
-    height: 20px;
+    width: 180px;
+    height: 30px;
     position: absolute;
     left: 0px;
-    top: 46px;
+    top: 40px;
     background-image: url(images/siemens_logo_gray_1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .partner-logo-intek { 
-    width: 76px;
-    height: 35px;
+    width: 88px;
+    height: 40px;
     position: absolute;
-    left: 206px;
+    left: 250px;
     top: 31px;
     background-image: url(images/intek_gray_1.png);
     background-repeat: no-repeat;
@@ -216,7 +216,7 @@
     width: 165px;
     height: 97px;
     position: absolute;
-    left: 348px;
+    left: 420px;
     top: 0px;
     background-image: url(images/ullrichtech_gray_1.png);
     background-repeat: no-repeat;
@@ -224,9 +224,9 @@
 }
 .partner-logo-smart { 
     width: 116px;
-    height: 47px;
+    height: 49px;
     position: absolute;
-    left: 579px;
+    left: 670px;
     top: 23px;
     background-image: url(images/smart_logo_gray_1.png);
     background-repeat: no-repeat;
