@@ -1,0 +1,453 @@
+/* Main container style */
+.main-container { 
+    background-color: rgba(43, 43, 43, 1);
+    width: 1280px;
+    height: 1780px;
+    position: absolute;
+}
+
+/* Header section style */
+.header-section { 
+    background-color: rgba(43, 43, 43, 1);
+    width: 1280px;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+/* Header content with name and image */
+.header-content { 
+    width: 167px;
+    height: 34px;
+    position: absolute;
+    left: 130px;
+    top: 33px;
+}
+.name-background { 
+    background-color: rgba(255, 255, 255, 0);
+    width: 167px;
+    height: 34px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.name-text { 
+    color: rgba(255, 255, 255, 1);
+    width: 144px;
+    height: 24px;
+    position: absolute;
+    left: 9.38px;
+    top: 5px;
+    font-family: Poppins;
+    text-align: left;
+    font-size: 24px;
+}
+
+/* Profile image in header */
+.profile-image-container { 
+    width: 80px;
+    height: 83.2px;
+    position: absolute;
+    left: 50px;
+    top: 8px;
+}
+.profile-image-wrapper { 
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 0px;
+    top: 2px;
+}
+.profile-image-background { 
+    overflow: hidden;
+}
+.profile-image { 
+    width: 97px;
+    height: 80px;
+    position: absolute;
+    left: -8px;
+    top: 0px;
+    background-image: url(images/image_17.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* About section style */
+.about-section { 
+    background-color: rgba(43, 43, 43, 1);
+    width: 1280px;
+    height: 600px;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    border-radius: 20px;
+}
+.about-content { 
+    width: 1080px;
+    height: 446px;
+    position: absolute;
+    left: 100px;
+    top: 77px;
+}
+.about-image-primary { 
+    opacity: 0.8;
+    width: 500px;
+    height: 446px;
+    position: absolute;
+    left: 580px;
+    top: 0px;
+    border-radius: 20px;
+    background-image: url(images/siemensbatteryrecycling_plc_v2_compressed_2__1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-image-secondary { 
+    opacity: 0.25;
+    width: 500px;
+    height: 446px;
+    position: absolute;
+    left: 580px;
+    top: 0px;
+    border-radius: 20px;
+    background-image: url(images/01_kip_1_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-description { 
+    color: rgba(255, 255, 255, 1);
+    opacity: 0.4;
+    width: 461px;
+    height: 224px;
+    position: absolute;
+    left: 0px;
+    top: 117px;
+    font-family: Poppins;
+    text-align: left;
+    font-size: 18px;
+}
+.about-title { 
+    color: rgba(255, 255, 255, 1);
+    width: 465px;
+    height: 90px;
+    position: absolute;
+    left: 0px;
+    top: 27px;
+    font-family: Poppins;
+    text-align: left;
+    font-size: 40px;
+}
+
+/* Partners section style */
+.partners-section { 
+    background-color: rgba(43, 43, 43, 1);
+    width: 1280px;
+    height: 170px;
+    position: absolute;
+    left: 0px;
+    top: 700px;
+}
+.partners-top-border { 
+    background-color: rgba(255, 255, 255, 1);
+    opacity: 0.2;
+    width: 1080px;
+    height: 1px;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    border-radius: 100px;
+}
+.partners-bottom-border { 
+    background-color: rgba(255, 255, 255, 1);
+    opacity: 0.2;
+    width: 1080px;
+    height: 1px;
+    position: absolute;
+    left: 100px;
+    top: 169px;
+    border-radius: 100px;
+}
+.partners-logos { 
+    width: 695px;
+    height: 97px;
+    position: absolute;
+    left: 170px;
+    top: 38px;
+}
+.partner-logo-wrapper { 
+    width: 513px;
+    height: 97px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.partner-logo-siemens { 
+    width: 140px;
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    top: 46px;
+    background-image: url(images/siemens_logo_gray_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.partner-logo-intek { 
+    width: 76px;
+    height: 35px;
+    position: absolute;
+    left: 206px;
+    top: 31px;
+    background-image: url(images/intek_gray_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.partner-logo-ullrichtech { 
+    width: 165px;
+    height: 97px;
+    position: absolute;
+    left: 348px;
+    top: 0px;
+    background-image: url(images/ullrichtech_gray_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.partner-logo-smart { 
+    width: 116px;
+    height: 47px;
+    position: absolute;
+    left: 579px;
+    top: 23px;
+    background-image: url(images/smart_logo_gray_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Project section style */
+.projects-section { 
+    background-color: rgba(43, 43, 43, 1);
+    width: 1280px;
+    height: 700px;
+    position: absolute;
+    left: 0px;
+    top: 870px;
+}
+.project-box-shadow { 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 1080px;
+    height: 500px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    border-radius: 20px;
+    background-image: url(images/04_kip_1_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.project-content { 
+    width: 1080px;
+    height: 500px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    border-radius: 20px;
+}
+.project-image { 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 1058px;
+    height: 478px;
+    position: absolute;
+    left: 12px;
+    top: 11px;
+    border-radius: 8px;
+    background-image: url(images/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Footer section style */
+.footer-section { 
+    background-color: rgba(43, 43, 43, 1);
+    width: 1280px;
+    height: 210px;
+    position: absolute;
+    left: 0px;
+    top: 1570px;
+}
+.footer-top-border { 
+    background-color: rgba(255, 255, 255, 1);
+    opacity: 0.2;
+    width: 1180px;
+    height: 1px;
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    border-radius: 100px;
+}
+.footer-content { 
+    width: 598px;
+    height: 109px;
+    position: absolute;
+    left: 50px;
+    top: 51px;
+}
+.footer-name { 
+    width: 160px;
+    height: 34px;
+    position: absolute;
+    left: 80px;
+    top: 0px;
+}
+.footer-name-background { 
+    background-color: rgba(255, 255, 255, 0);
+    width: 160px;
+    height: 34px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.footer-name-text { 
+    color: rgba(255, 255, 255, 1);
+    width: 144px;
+    height: 24px;
+    position: absolute;
+    left: 8.99px;
+    top: 5px;
+    font-family: Poppins;
+    text-align: left;
+    font-size: 24px;
+}
+.footer-policies { 
+    width: 598px;
+    height: 32px;
+    position: absolute;
+    left: 0px;
+    top: 77px;
+}
+.footer-policies-wrapper { 
+    width: 130px;
+    height: 32px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.footer-company { 
+    color: rgba(255, 255, 255, 1);
+    width: 105px;
+    height: 32px;
+    position: absolute;
+    left: 25px;
+    top: 0px;
+    font-family: Poppins;
+    text-align: left;
+    font-size: 18px;
+}
+.footer-copyright { 
+    color: rgba(255, 255, 255, 1);
+    width: 15px;
+    height: 32px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-family: Poppins;
+    text-align: left;
+    font-size: 18px;
+}
+.footer-privacy { 
+    color: rgba(255, 255, 255, 1);
+    width: 128px;
+    height: 32px;
+    position: absolute;
+    left: 160px;
+    top: 0px;
+    font-family: Poppins;
+    text-align: left;
+    font-size: 18px;
+}
+.footer-cookies { 
+    color: rgba(255, 255, 255, 1);
+    width: 133px;
+    height: 32px;
+    position: absolute;
+    left: 318px;
+    top: 0px;
+    font-family: Poppins;
+    text-align: left;
+    font-size: 18px;
+}
+.footer-terms { 
+    color: rgba(255, 255, 255, 1);
+    width: 117px;
+    height: 32px;
+    position: absolute;
+    left: 481px;
+    top: 0px;
+    font-family: Poppins;
+    text-align: left;
+    font-size: 18px;
+}
+.footer-contact { 
+    width: 301px;
+    height: 80px;
+    position: absolute;
+    left: 729px;
+    top: 80px;
+}
+.footer-contact-title { 
+    color: rgba(255, 255, 255, 1);
+    width: 135px;
+    height: 32px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-family: Poppins;
+    text-align: left;
+    font-size: 18px;
+}
+.footer-contact-email { 
+    background-color: rgba(51, 51, 51, 1);
+    width: 301px;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    border-radius: 15px;
+}
+.footer-contact-email-text { 
+    color: rgba(255, 255, 255, 1);
+    opacity: 0.4;
+    width: 271px;
+    height: 32px;
+    position: absolute;
+    left: 30px;
+    top: 9px;
+    font-family: Poppins;
+    text-align: left;
+    font-size: 18px;
+}
+.footer-profile-image-container { 
+    width: 80px;
+    height: 83.2px;
+    position: absolute;
+    left: 50px;
+    top: 22px;
+}
+.footer-profile-image-wrapper { 
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 0px;
+    top: 2px;
+}
+.footer-profile-image-background { 
+    overflow: hidden;
+}
+.footer-profile-image { 
+    width: 97px;
+    height: 80px;
+    position: absolute;
+    left: -8px;
+    top: 0px;
+    background-image: url(images/image_17.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
