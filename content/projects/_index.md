@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+description: "Selected industrial automation projects and case studies."
 ---
 
 Below are selected projects. Replace the placeholders with real outcomes, metrics, and photos.

@@ -1,5 +1,6 @@
 ---
 title: "Contact"
+description: "Get in touch for automation engineering work."
 ---
 
 - Email: rene@tronix.no

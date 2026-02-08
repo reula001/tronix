@@ -1,0 +1,44 @@
+[[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "Projects"
+  pageRef = "projects"
+  weight = 20
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 30
+
+[[main]]
+  name = "Skills"
+  pageRef = "skills"
+  weight = 40
+
+[[main]]
+  name = "Notes"
+  pageRef = "notes"
+  weight = 50
+
+[[main]]
+  name = "CV"
+  pageRef = "cv"
+  weight = 60
+
+[[main]]
+  name = "Contact"
+  pageRef = "contact"
+  weight = 70
+
+[[footer]]
+  name = "Contact"
+  pageRef = "contact"
+  weight = 10
+
+[[footer]]
+  name = "CV"
+  pageRef = "cv"
+  weight = 20

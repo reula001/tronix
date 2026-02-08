@@ -1,5 +1,6 @@
 ---
 title: "Skills"
+description: "Core automation engineering skills and tooling."
 ---
 
 ## Automation

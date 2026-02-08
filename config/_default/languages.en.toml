@@ -1,0 +1,23 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Tronix"
+
+[params]
+  displayName = "English"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/rene.png"
+  description = "Industrial automation engineer specializing in PLC programming, commissioning, and IIoT."
+
+[params.author]
+  name = "René Ullrich"
+  email = "rene@tronix.no"
+  image = "img/rene.png"
+  headline = "Automation Engineer"
+  bio = "PLC programming, commissioning, and OT/IT integration with Siemens TIA Portal and Beckhoff TwinCAT 3."
+  links = [
+    { email = "mailto:rene@tronix.no" },
+    { linkedin = "https://www.linkedin.com/" }
+  ]

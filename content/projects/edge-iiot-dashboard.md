@@ -1,6 +1,7 @@
 ---
 title: "Edge IIoT Monitoring Dashboard"
 status: "draft"
+description: "Edge gateway and dashboard for machine health and production metrics."
 roles:
   - Data integration
   - Industrial networking

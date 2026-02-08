@@ -29,23 +29,16 @@ function assertIncludes(text, needle, label, fileLabel) {
 
 const indexHtml = readText("index.html");
 assertIncludes(indexHtml, "René Ullrich", "site owner name", "index.html");
-const heroMatch =
-  indexHtml.includes("Automation Engineer") ||
-  indexHtml.includes("about-title");
-if (!heroMatch) {
-  fail("Expected hero title in index.html.");
-}
-assertIncludes(indexHtml, "Contact me at:", "footer contact label", "index.html");
+assertIncludes(indexHtml, "Automation Engineer", "headline", "index.html");
+assertIncludes(indexHtml, "Featured projects", "featured projects section", "index.html");
 assertIncludes(indexHtml, "rene@tronix.no", "contact email", "index.html");
 
+ensureExists("projects/index.html");
+ensureExists("about/index.html");
+
 const requiredImages = [
-  "images/image_17.png",
-  "images/siemensbatteryrecycling_plc_v2_compressed_2__1.png",
-  "images/siemens_logo_gray_1.png",
-  "images/intek_gray_1.png",
-  "images/ullrichtech_gray_1.png",
-  "images/smart_logo_gray_1.png",
-  "images/image.png",
+  "attachments/image_17.png",
+  "attachments/siemensbatteryrecycling_plc_v2_compressed_2__1.png",
 ];
 
 for (const relPath of requiredImages) {

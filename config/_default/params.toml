@@ -1,0 +1,58 @@
+colorScheme = "blowfish"
+
+defaultAppearance = "dark"
+autoSwitchAppearance = false
+
+enableA11y = true
+enableSearch = false
+enableCodeCopy = true
+enableStructuredBreadcrumbs = false
+
+mainSections = ["projects", "notes"]
+
+highlightCurrentMenuArea = true
+smartTOC = false
+
+[header]
+  layout = "fixed" # basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
+
+[footer]
+  showMenu = false
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = false
+  showScrollToTop = true
+
+[homepage]
+  layout = "page" # page, profile, hero, card, background, custom
+  showRecent = false
+  showRecentItems = 6
+
+[article]
+  showDate = false
+  showViews = false
+  showLikes = false
+  showAuthor = true
+  showReadingTime = false
+  showTableOfContents = false
+  showBreadcrumbs = false
+  showEdit = false
+  showTaxonomies = false
+  showHero = false
+  showRelatedContent = false
+  showPagination = true
+  showWordCount = false
+
+[list]
+  showHero = false
+  showBreadcrumbs = false
+  showSummary = true
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
+  showCards = true
+  orderByWeight = true
+  groupByYear = false
+  cardView = true
+  cardViewScreenWidth = false
+  constrainItemsWidth = true

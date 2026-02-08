@@ -2,6 +2,7 @@
 title: "Battery Recycling PLC"
 status: "draft"
 date: 2025-06-30 # replace with the real date
+description: "PLC and HMI implementation for a battery recycling process."
 roles:
   - PLC programming
   - Commissioning

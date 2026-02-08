@@ -1,6 +1,7 @@
 ---
 title: "Vision Inspection Cell"
 status: "draft"
+description: "Inline vision inspection with PLC integration for quality reporting."
 roles:
   - PLC integration
   - Commissioning
