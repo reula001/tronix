@@ -9,7 +9,20 @@
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <main style="max-width: 960px; margin: 40px auto; padding: 0 20px;">
+  <header class="site-header">
+    <div class="site-brand">
+      <img src="/images/image_17.png" alt="René Ullrich">
+      <span>René Ullrich</span>
+    </div>
+    <nav class="site-header-nav" aria-label="Primary">
+      <a href="/" class="site-header-link">Home</a>
+      <a href="/projects/" class="site-header-link">Projects</a>
+      <a href="/about/" class="site-header-link">About</a>
+      <a href="/skills/" class="site-header-link">Skills</a>
+      <a href="/contact/" class="site-header-link">Contact</a>
+    </nav>
+  </header>
+  <main style="max-width: 960px; margin: 0 auto 48px; padding: 0 20px;">
     {{ block "main" . }}{{ end }}
   </main>
 </body>

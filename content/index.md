@@ -3,7 +3,7 @@ title: "René Ullrich"
 description: "Industrial automation engineer specializing in PLC programming, commissioning, and IIoT."
 ---
 
-![[attachments/image_17.png|160]]
+![René Ullrich](/attachments/image_17.png)
 
 # René Ullrich
 
@@ -18,18 +18,18 @@ Automation engineer focused on reliable, maintainable industrial systems. I buil
 
 ## Featured projects
 
-- [[projects/battery-recycling-plc]]
-- [[projects/edge-iiot-dashboard]]
-- [[projects/vision-inspection-cell]]
+- [Battery Recycling PLC](/projects/battery-recycling-plc/)
+- [Edge IIoT Dashboard](/projects/edge-iiot-dashboard/)
+- [Vision Inspection Cell](/projects/vision-inspection-cell/)
 
 ## Notes
 
 I keep short notes from ongoing work, experiments, and lessons learned.
 
-- [[notes/index]]
+- [Notes](/notes/)
 
 ## Contact
 
 - Email: rene@tronix.no
 - LinkedIn: Add your profile URL here
-- CV: [[cv]]
+- CV: [CV](/cv/)

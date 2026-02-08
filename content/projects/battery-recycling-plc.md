@@ -11,7 +11,7 @@ stack:
   - Profinet
 ---
 
-![[attachments/siemensbatteryrecycling_plc_v2_compressed_2__1.png]]
+![Battery recycling PLC](/attachments/siemensbatteryrecycling_plc_v2_compressed_2__1.png)
 
 ## Summary
 
@@ -30,7 +30,7 @@ High-level PLC and HMI implementation for a battery recycling process. Replace t
 
 ## Photos
 
-![[attachments/04_kip_1_1.png]]
+![Battery recycling overview](/attachments/04_kip_1_1.png)
 
 ## Lessons learned
 

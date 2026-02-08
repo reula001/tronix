@@ -10,7 +10,7 @@ stack:
   - HMI
 ---
 
-![[attachments/image.png]]
+![Vision inspection cell](/attachments/image.png)
 
 ## Summary
 

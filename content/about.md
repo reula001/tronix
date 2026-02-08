@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-![[attachments/siemensbatteryrecycling_plc_v2_compressed_2__1.png]]
+![Battery recycling PLC](/attachments/siemensbatteryrecycling_plc_v2_compressed_2__1.png)
 
 ## About
 

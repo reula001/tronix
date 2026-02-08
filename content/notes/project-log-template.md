@@ -43,7 +43,7 @@ Use this as a copy/paste template for new project notes.
 
 ## Photos and diagrams
 
-![[attachments/image_17.png|120]]
+![René Ullrich](/attachments/image_17.png)
 
 ## Lessons learned
 

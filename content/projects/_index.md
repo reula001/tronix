@@ -6,9 +6,9 @@ Below are selected projects. Replace the placeholders with real outcomes, metric
 
 ## Featured
 
-- [[projects/battery-recycling-plc]]
-- [[projects/edge-iiot-dashboard]]
-- [[projects/vision-inspection-cell]]
+- [Battery Recycling PLC](/projects/battery-recycling-plc/)
+- [Edge IIoT Dashboard](/projects/edge-iiot-dashboard/)
+- [Vision Inspection Cell](/projects/vision-inspection-cell/)
 
 ## How I document projects
 

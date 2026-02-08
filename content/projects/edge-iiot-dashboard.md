@@ -10,7 +10,7 @@ stack:
   - Edge gateway
 ---
 
-![[attachments/01_kip_1_1.png]]
+![Edge dashboard](/attachments/01_kip_1_1.png)
 
 ## Summary
 
