@@ -1,6 +1,7 @@
 ---
 title: "CV"
 description: "Curriculum vitae and professional summary."
+url: "/cv/"
 ---
 
 Add a short summary and link to your full CV PDF when ready.

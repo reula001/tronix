@@ -1,6 +1,7 @@
 ---
 title: "About"
 description: "Automation engineer specializing in PLC programming, commissioning, and IIoT."
+url: "/about/"
 ---
 
 ![Battery recycling PLC](/attachments/siemensbatteryrecycling_plc_v2_compressed_2__1.png)

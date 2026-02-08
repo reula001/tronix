@@ -28,11 +28,9 @@ If you use a custom domain, ensure it is set in **Settings → Pages**.
 ## Content map
 
 - `content/_index.md`: Homepage content (fully Markdown-driven)
-- `content/about.md`: About page
+- `content/pages/`: Standalone pages (About, Skills, Contact, CV)
 - `content/projects/`: Project case studies
 - `content/notes/`: Notes and templates
-- `content/skills.md`: Skills summary
-- `content/cv.md`: CV landing page
 - `content/attachments/`: Images and files
 
 ## Theme

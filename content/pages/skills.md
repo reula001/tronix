@@ -1,6 +1,7 @@
 ---
 title: "Skills"
 description: "Core automation engineering skills and tooling."
+url: "/skills/"
 ---
 
 ## Automation
