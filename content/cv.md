@@ -2,8 +2,6 @@
 title: "CV"
 ---
 
-![[nav]]
-
 Add a short summary and link to your full CV PDF when ready.
 
 ## Summary
@@ -13,5 +11,3 @@ Automation engineer with a focus on PLC programming, commissioning, and OT/IT in
 ## Download
 
 - Add your PDF to `content/attachments/` and link it here.
-
-![[footer]]

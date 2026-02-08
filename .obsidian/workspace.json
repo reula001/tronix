@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/nav.md",
+                "file": "content/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nav"
+              "title": "index"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/nav.md",
+                "file": "content/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for nav"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/nav.md",
+                "file": "content/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from nav"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/nav.md",
+                "file": "content/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of nav"
+              "title": "Outline of index"
             }
           }
         ]
@@ -185,9 +185,29 @@
   },
   "active": "a4b7ac1e7c174a78",
   "lastOpenFiles": [
+    "content/_index.md",
+    "content/nav.md",
+    "themes/tronix/layouts/_default/list.html",
+    "themes/tronix/layouts/_default/single.html",
+    "themes/tronix/layouts/_default/baseof.html",
+    "themes/tronix/layouts/index.html",
+    "hugo.toml",
+    "static/images/ullrichtech_gray_1.png",
+    "static/images/smart_logo_gray_1.png",
+    "static/images/siemensbatteryrecycling_plc_v2_compressed_2__1.png",
+    "static/images/siemens_logo_gray_1.png",
+    "static/images/intek_gray_1.png",
+    "static/images/image_17.png",
+    "static/images/image.png",
+    "static/images/04_kip_1_1.png",
+    "static/images/01_kip_1_1.png",
+    "static/styles.css",
+    "themes/tronix/layouts/_default",
+    "themes/tronix/layouts",
+    "themes/tronix",
+    "themes",
     "content/index.md",
     "content/footer.md",
-    "content/nav.md",
     "content/contact.md",
     "content/about.md",
     "content/cv.md",

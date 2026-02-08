@@ -2,8 +2,6 @@
 title: "About"
 ---
 
-![[nav]]
-
 ![[attachments/siemensbatteryrecycling_plc_v2_compressed_2__1.png]]
 
 ## About
@@ -34,5 +32,3 @@ I am an experienced automation engineer specializing in PLC programming with Sie
 - Emphasis on maintainability and clear diagnostics
 - Strong focus on commissioning discipline and safety
 - Comfortable working across OT and IT boundaries
-
-![[footer]]

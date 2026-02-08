@@ -2,8 +2,6 @@
 title: "Projects"
 ---
 
-![[nav]]
-
 Below are selected projects. Replace the placeholders with real outcomes, metrics, and photos.
 
 ## Featured
@@ -21,5 +19,3 @@ Each project page includes:
 - Commissioning approach and results
 - Photos and diagrams
 - Lessons learned
-
-![[footer]]

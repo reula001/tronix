@@ -3,17 +3,6 @@ title: "René Ullrich"
 description: "Industrial automation engineer specializing in PLC programming, commissioning, and IIoT."
 ---
 
-![[nav]]
-
-<div style="position: relative; max-width: 100%; aspect-ratio: 16 / 9; border-radius: 16px; overflow: hidden; margin: 24px 0;">
-  <video style="width: 100%; height: 100%; object-fit: cover; display: block;" autoplay loop muted playsinline poster="/attachments/04_kip_1_1.png">
-    <source src="/attachments/hero.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <img src="/attachments/01_kip_1_1.png" alt="Overlay layer 1" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.28;">
-  <img src="/attachments/04_kip_1_1.png" alt="Overlay layer 2" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.14;">
-</div>
-
 ![[attachments/image_17.png|160]]
 
 # René Ullrich
@@ -44,5 +33,3 @@ I keep short notes from ongoing work, experiments, and lessons learned.
 - Email: rene@tronix.no
 - LinkedIn: Add your profile URL here
 - CV: [[cv]]
-
-![[footer]]

@@ -1,31 +1,33 @@
-# Tronix portfolio (Obsidian-first)
+# Tronix portfolio (Hugo + Obsidian)
 
-This repository now contains an Obsidian-compatible Markdown vault in `content/`. Use Obsidian to edit the notes and project pages, then publish with a static site template that supports Obsidian-style Markdown.
+This repository is set up to publish a Hugo site from Obsidian-friendly Markdown in `content/`. The homepage uses a custom Hugo layout that reproduces the original static design, while other pages can be expanded gradually.
 
 ## Quick start (editing)
 
 1. Open Obsidian.
 2. Choose **Open folder as vault** and select `content/`.
-3. Edit `index.md`, `about.md`, and the files under `projects/` and `notes/`.
-4. Add images to `content/attachments/` and embed them with `![[attachments/filename.png]]`.
+3. Edit the Markdown files under `content/`.
+4. Add images to `content/attachments/` and reference them in Markdown.
 
-## Publishing (Quartz + GitHub Pages)
+## Local preview (Hugo)
 
-This repo is configured to build the Quartz site directly from `content/` using GitHub Actions.
+Install Hugo (extended) and run:
 
-Workflow: `.github/workflows/deploy.yml`
+```bash
+hugo server -D
+```
 
-Steps:
+Then open `http://localhost:1313`.
 
-1. In GitHub, go to **Settings → Pages**.
-2. Set **Source** to **GitHub Actions**.
-3. Push to `main` and the workflow will build and publish the site.
+## Publishing (GitHub Pages)
 
-If you use a custom domain, keep the `CNAME` file in the repo root. The workflow copies it into the published site automatically.
+The GitHub Actions workflow builds and deploys Hugo automatically when you push to `main`.
+
+If you use a custom domain, ensure it is set in **Settings → Pages**.
 
 ## Content map
 
-- `content/index.md`: Home page
+- `content/_index.md`: Home content (currently unused by the homepage template)
 - `content/about.md`: About page
 - `content/projects/`: Project case studies
 - `content/notes/`: Notes and templates

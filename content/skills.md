@@ -2,8 +2,6 @@
 title: "Skills"
 ---
 
-![[nav]]
-
 ## Automation
 
 - PLC programming (Siemens TIA Portal, Beckhoff TwinCAT 3)
@@ -22,5 +20,3 @@ title: "Skills"
 - FAT/SAT planning
 - Commissioning checklists
 - Documentation and handover
-
-![[footer]]

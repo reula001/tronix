@@ -1,0 +1,19 @@
+baseURL = "https://tronix.no/"
+languageCode = "en-us"
+title = "Tronix"
+theme = "tronix"
+enableRobotsTXT = true
+staticDir = ["static", "content/attachments"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
+  page = ["HTML"]
+
+[params]
+  description = "Tech Portfolio"

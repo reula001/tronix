@@ -1,4 +1,4 @@
-name: Build and Deploy Quartz site to GitHub Pages
+name: Build and Deploy Hugo site to GitHub Pages
 
 on:
   push:
@@ -27,20 +27,14 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Build Quartz site
-        uses: konstfish/quartz-build-action@v7
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
         with:
-          source: content
-          destination: public
-          page_title: "Tronix | René Ullrich"
-          quartz_config: .github/quartz/quartz.config.ts
-          quartz_layout: .github/quartz/quartz.layout.ts
-          quartz_custom_css: .github/quartz/custom.scss
+          hugo-version: "0.121.1"
+          extended: true
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
+      - name: Build site
+        run: hugo --minify
 
       - name: Verify site output
         run: node scripts/verify-site.mjs public
