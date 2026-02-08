@@ -34,13 +34,6 @@ jobs:
           destination: public
           page_title: "Tronix | René Ullrich"
 
-      - name: Ensure publish directory is writable
-        run: chmod -R u+w public
-
-      - name: Preserve CNAME
-        run: |
-          if [ -f CNAME ]; then cp CNAME public/CNAME; fi
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
