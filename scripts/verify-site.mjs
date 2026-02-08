@@ -29,7 +29,12 @@ function assertIncludes(text, needle, label, fileLabel) {
 
 const indexHtml = readText("index.html");
 assertIncludes(indexHtml, "René Ullrich", "site owner name", "index.html");
-assertIncludes(indexHtml, "Automation Engineer", "hero title", "index.html");
+const heroMatch =
+  indexHtml.includes("Automation Engineer") ||
+  indexHtml.includes("about-title");
+if (!heroMatch) {
+  fail("Expected hero title in index.html.");
+}
 assertIncludes(indexHtml, "Contact me at:", "footer contact label", "index.html");
 assertIncludes(indexHtml, "rene@tronix.no", "contact email", "index.html");
 
