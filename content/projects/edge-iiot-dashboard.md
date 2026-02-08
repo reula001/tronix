@@ -10,6 +10,8 @@ stack:
   - Edge gateway
 ---
 
+![[nav]]
+
 ![[attachments/01_kip_1_1.png]]
 
 ## Summary
@@ -29,3 +31,5 @@ Edge gateway and dashboard that exposes machine health and production metrics. R
 ## Notes
 
 - Add security and network segmentation details
+
+![[footer]]

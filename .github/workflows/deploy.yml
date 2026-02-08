@@ -33,6 +33,9 @@ jobs:
           source: content
           destination: public
           page_title: "Tronix | René Ullrich"
+          quartz_config: .github/quartz/quartz.config.ts
+          quartz_layout: .github/quartz/quartz.layout.ts
+          quartz_custom_css: .github/quartz/custom.scss
 
       - name: Setup Node.js
         uses: actions/setup-node@v4

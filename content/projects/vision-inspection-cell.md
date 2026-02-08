@@ -10,6 +10,8 @@ stack:
   - HMI
 ---
 
+![[nav]]
+
 ![[attachments/image.png]]
 
 ## Summary
@@ -25,3 +27,5 @@ Inline vision inspection cell with PLC integration for reject handling and quali
 ## Results
 
 - Replace with measurable quality metrics
+
+![[footer]]
