@@ -11,7 +11,7 @@ This repository follows the Hugo + Blowfish workflow (as shown in the Christian 
 
 ## Local preview
 
-Install Hugo (extended) and run:
+Install Hugo (extended) version **0.155.2+** (current stable) and run:
 
 ```bash
 hugo server -D
