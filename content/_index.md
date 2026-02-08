@@ -11,6 +11,17 @@ description: "Industrial automation engineer specializing in PLC programming, co
 
 I design and commission reliable industrial automation systems. My focus is PLC programming with Siemens TIA Portal and Beckhoff TwinCAT 3, plus OT/IT integration for practical IIoT.
 
+---
+
+![Siemens Logo](/attachments/siemens_logo_gray_1.png)
+![Intek Logo](/attachments/intek_gray_1.png)
+![Ullrich Tech Logo](/attachments/ullrichtech_gray_1.png)
+![S:mart Logo](/attachments/smart1.png)
+
+---
+
+![Vision inspection cell](/attachments/image.png)
+
 ## Focus
 
 - PLC programming, testing, and commissioning
