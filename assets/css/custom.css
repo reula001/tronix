@@ -1,0 +1,4 @@
+/* Vertically center items inside the Blowfish gallery */
+.gallery {
+  align-items: center;
+}
