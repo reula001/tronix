@@ -14,10 +14,10 @@ I design and commission reliable industrial automation systems. My focus is PLC 
 ---
 ## Employers and customers
 {{< gallery >}}
-  <img src="/attachments/siemens_logo_gray_1.png" class="grid-w25" alt="Siemens" />
-  <img src="/attachments/intek_gray_1.png" class="grid-w25" alt="Intek" />
-  <img src="/attachments/ullrichtech_gray_1.png" class="grid-w25" alt="Ullrich Tech" />
-  <img src="/attachments/smart_logo_gray_1.png" class="grid-w25" alt="S:mart" />
+  <img src="/attachments/siemens_logo_gray_1.png" class="grid-w25 logo" alt="Siemens" />
+  <img src="/attachments/intek_gray_1.png" class="grid-w25 logo" alt="Intek" />
+  <img src="/attachments/ullrichtech_gray_1.png" class="grid-w25 logo" alt="Ullrich Tech" />
+  <img src="/attachments/smart_logo_gray_1.png" class="grid-w25 logo" alt="S:mart" />
 {{< /gallery >}}
 
 ---
