@@ -1,8 +1,17 @@
 /* Vertically center items inside the Blowfish gallery */
 /* Additionally force flex layout */
-.gallery {
+/*.gallery {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 5px;
+} */
+
+/* Make logos consistent */
+.gallery img.logo {
+  height: 48px;      /* pick what looks right */
+  width: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;    /* centers inside its column width */
 }
