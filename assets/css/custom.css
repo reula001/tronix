@@ -1,4 +1,8 @@
 /* Vertically center items inside the Blowfish gallery */
+/* Additionally force flex layout */
 .gallery {
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  gap: 5px;
 }
