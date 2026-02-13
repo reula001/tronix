@@ -1,15 +1,21 @@
-/* Homepage logo strip using Blowfish gallery */
-.home-logos .gallery {
+/* Homepage logos: 4 equal columns, centered */
+.home-logos .logo-row{
   display: flex;
   flex-wrap: wrap;
   align-items: center;      /* vertical centering */
 }
 
-.home-logos .gallery img.logo {
-  box-sizing: border-box;
+.home-logos .logo-cell{
+  flex: 0 0 25%;            /* 4 columns */
+  display: flex;
+  align-items: center;      /* vertical centering inside cell */
+  justify-content: center;  /* horizontal centering */
   padding: 8px 12px;        /* spacing between logos */
-  display: block;
-  margin: 0 auto;
+  box-sizing: border-box;   /* padding doesn't break 25% */
+}
+
+.home-logos .logo-cell img{
   max-width: 100%;
-  height: auto;             /* keep natural proportions */
+  height: auto;             /* keep logo proportions */
+  display: block;
 }
