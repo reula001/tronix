@@ -19,3 +19,8 @@
   height: auto;             /* keep logo proportions */
   display: block;
 }
+
+.home-logos .logo-break{
+  flex-basis: 100%;
+  height: 0;
+}

@@ -16,10 +16,17 @@ I design and commission reliable industrial automation systems. My focus is PLC 
 
 <div class="home-logos">
   <div class="logo-row">
+    <div class="logo-cell"><img src="/attachments/Nanosurf_logo.svg" alt="Nanosurf"></div>
     <div class="logo-cell"><img src="/attachments/Siemens-logo.svg" alt="Siemens"></div>
     <div class="logo-cell"><img src="/attachments/intek.svg" alt="Intek"></div>
     <div class="logo-cell"><img src="/attachments/ullrich_engineering.svg" alt="Ullrich Tech"></div>
-    <div class="logo-cell"><img src="/attachments/s-mart-logo.svg" alt="S:mart"></div>
+    
+    <div class="logo-break"></div>
+
+	<div class="logo-cell"><img src="/attachments/fagskolen_logo.svg" alt="Fagskolen Innlandet"></div>
+	<div class="logo-cell"><img src="/attachments/s-mart-logo.svg" alt="S:mart"></div>
+    <div class="logo-cell"><img src="/attachments/Agilis.svg" alt="Agilis"></div>
+    <div class="logo-cell"><img src="/attachments/Brodboksen.svg" alt="Brodboksen"></div>
   </div>
 </div>
 
