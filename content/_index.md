@@ -30,7 +30,7 @@ I design and commission reliable industrial automation systems. My focus is PLC 
 
 ---
 
-![PLC_Icon](/attachments/image.png)
+![PLC_Icon](/attachments/plc_text.svg)
 
 ## Focus
 
