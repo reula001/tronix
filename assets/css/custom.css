@@ -1,29 +1,15 @@
-/* Fix logo vertical alignment in this one block */
+/* Homepage logo strip using Blowfish gallery */
 .home-logos .gallery {
-  line-height: 0; /* removes baseline/top alignment artifacts */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;      /* vertical centering */
 }
 
 .home-logos .gallery img.logo {
-  vertical-align: middle !important;
-  display: inline-block; /* ensure vertical-align applies */
-}
-
-.home-logos .logo-row{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;     /* vertical centering */
-}
-
-.home-logos .logo-cell{
-  flex: 0 0 25%;           /* uniform column width */
-  display: flex;
-  align-items: center;     /* vertical centering inside cell */
-  justify-content: center; /* horizontal centering inside cell */
-  padding: 8px 0;
-}
-
-.home-logos .logo-cell img{
-  max-width: 100%;
-  height: auto;            /* keep each logo’s natural proportions */
+  box-sizing: border-box;
+  padding: 8px 12px;        /* spacing between logos */
   display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;             /* keep natural proportions */
 }
