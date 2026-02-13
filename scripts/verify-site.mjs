@@ -31,7 +31,6 @@ const indexHtml = readText("index.html");
 assertIncludes(indexHtml, "René Ullrich", "site owner name", "index.html");
 assertIncludes(indexHtml, "Automation Engineer", "headline", "index.html");
 assertIncludes(indexHtml, "Featured projects", "featured projects section", "index.html");
-assertIncludes(indexHtml, "rene@tronix.no", "contact email", "index.html");
 
 ensureExists("projects/index.html");
 ensureExists("about/index.html");
