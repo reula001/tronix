@@ -1,17 +1,16 @@
-/* Vertically center items inside the Blowfish gallery */
-/* Additionally force flex layout */
-/*.gallery {
-  display: flex;
+/* Only affect the homepage logo strip */
+.home-logos .gallery {
+  display: flex !important;
   flex-wrap: wrap;
-  align-items: center;
-  gap: 5px;
-} */
+  justify-content: center; /* centers row if it doesn't fill 100% */
+  align-items: center;     /* vertical centering = your main problem */
+}
 
-/* Make logos consistent */
-.gallery img.logo {
-  height: 48px;      /* pick what looks right */
-  width: auto;
-  object-fit: contain;
+/* Keep original proportions, avoid baseline weirdness */
+.home-logos .gallery > img.logo {
   display: block;
-  margin: 0 auto;    /* centers inside its column width */
+  height: auto !important;     /* do NOT force uniform height */
+  max-width: 100%;
+  object-fit: contain;
+  vertical-align: middle;
 }
