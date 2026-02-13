@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;      /* vertical centering inside cell */
   justify-content: center;  /* horizontal centering */
-  padding: 8px 12px;        /* spacing between logos */
+  padding: 8px 20px;        /* spacing between logos, vertical, horisontal */
   box-sizing: border-box;   /* padding doesn't break 25% */
 }
 
