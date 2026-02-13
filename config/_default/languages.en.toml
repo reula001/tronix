@@ -19,5 +19,5 @@ title = "Tronix"
   bio = "PLC programming, commissioning, and OT/IT integration with Siemens TIA Portal and Beckhoff TwinCAT 3."
   links = [
     { email = "mailto:rene@tronix.no" },
-    { linkedin = "https://www.linkedin.com/" }
+    { linkedin = "https://www.linkedin.com/in/rene-ullrich" }
   ]

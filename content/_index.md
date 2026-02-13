@@ -51,6 +51,6 @@ I design and commission reliable industrial automation systems. My focus is PLC 
 
 ## Contact
 
-- Email: [rene@tronix.no](mailto:rene@tronix.no)
+- Email: xxx
 - LinkedIn: Add your profile URL here
 - CV: [Download](/cv/)
