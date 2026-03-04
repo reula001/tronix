@@ -1,4 +1,4 @@
-﻿# Tronix portfolio (Hugo + Blowfish + Obsidian)
+# Tronix portfolio (Hugo + Blowfish + Obsidian)
 
 This repository uses Hugo + Blowfish. Content is managed in Markdown under `content/` and deployed to GitHub Pages via GitHub Actions.
 

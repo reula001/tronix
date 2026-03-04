@@ -1,4 +1,4 @@
-﻿import fs from "fs";
+import fs from "fs";
 import path from "path";
 
 const root = path.resolve(process.argv[2] ?? "public");

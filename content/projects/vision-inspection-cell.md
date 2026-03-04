@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Vision Inspection Cell"
 description: "Inline vision inspection with PLC integration for quality reporting."
 roles:

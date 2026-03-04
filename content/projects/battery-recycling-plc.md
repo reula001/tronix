@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Battery Recycling PLC"
 date: 2025-06-30
 description: "PLC and HMI implementation for a battery recycling process line."

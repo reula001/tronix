@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Edge IIoT Monitoring Dashboard"
 description: "Edge gateway and dashboard for machine health and production metrics."
 roles:

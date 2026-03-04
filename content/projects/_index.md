@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Projects"
 description: "Selected industrial automation projects and case studies."
 ---

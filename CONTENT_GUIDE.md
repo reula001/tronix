@@ -1,4 +1,4 @@
-﻿# Content Guide (daily use)
+# Content Guide (daily use)
 
 This repo uses Hugo + Blowfish. For daily edits, focus on `content/`.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Home"
 description: "Industrial automation engineer specializing in PLC programming, commissioning, and IIoT."
 ---

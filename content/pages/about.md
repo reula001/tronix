@@ -1,4 +1,4 @@
-﻿---
+---
 title: "About"
 description: "Automation engineer specializing in PLC programming, commissioning, and IIoT integration."
 url: "/about/"
