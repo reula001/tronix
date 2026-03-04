@@ -1,4 +1,4 @@
----
+﻿---
 title: "About"
 description: "Automation engineer specializing in PLC programming, commissioning, and IIoT integration."
 url: "/about/"
@@ -49,7 +49,7 @@ Use this form for project inquiries or CV requests.
   <label for="message">Message</label>
   <textarea id="message" name="message" rows="6" required></textarea>
 
-  <div class="g-recaptcha" data-sitekey="6LejA4AsAAAAAO7cqiZkIe73A7kuMRXczXHfeAYm"></div>
+  <div class="g-recaptcha" data-sitekey="6LeEEIAsAAAAAL3SJ18c-GV0aXuzGSl10IZW30vr"></div>
 
   <button type="submit">Send message</button>
 </form>
@@ -71,4 +71,5 @@ Use this form for project inquiries or CV requests.
     window.history.replaceState({}, "", cleaned);
   })();
 </script>
+
 
