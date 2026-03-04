@@ -1,4 +1,4 @@
-/* Homepage logos: 4 equal columns, centered */
+﻿/* Homepage logos: 4 equal columns, centered */
 .home-logos .logo-row{
   display: flex;
   flex-wrap: wrap;
@@ -23,4 +23,59 @@
 .home-logos .logo-break{
   flex-basis: 100%;
   height: 0;
+}
+
+/* About page contact form */
+.about-contact-form {
+  display: grid;
+  gap: 0.65rem;
+  max-width: 760px;
+}
+
+.about-contact-form label {
+  font-weight: 600;
+}
+
+.about-contact-form input,
+.about-contact-form textarea {
+  width: 100%;
+  border: 1px solid rgba(148, 163, 184, 0.55);
+  border-radius: 0.45rem;
+  background: transparent;
+  color: inherit;
+  padding: 0.65rem 0.75rem;
+  font: inherit;
+}
+
+.about-contact-form button {
+  width: fit-content;
+  padding: 0.65rem 1rem;
+  border: 1px solid currentColor;
+  border-radius: 0.45rem;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.about-contact-form button:hover {
+  opacity: 0.85;
+}
+
+.contact-honeypot {
+  position: absolute;
+  left: -9999px;
+}
+
+.form-success {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0.7rem 0.9rem;
+  border-radius: 0.45rem;
+  border: 1px solid rgba(34, 197, 94, 0.45);
+  background: rgba(34, 197, 94, 0.12);
+}
+
+.g-recaptcha {
+  margin-top: 0.4rem;
+  margin-bottom: 0.2rem;
 }

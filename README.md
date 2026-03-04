@@ -1,17 +1,10 @@
-# Tronix portfolio (Hugo + Blowfish + Obsidian)
+﻿# Tronix portfolio (Hugo + Blowfish + Obsidian)
 
-This repository follows the Hugo + Blowfish workflow (as shown in the Christian Lempa tutorial). Content lives in `content/` and is edited in Obsidian. The site is rendered by the Blowfish theme and deployed via GitHub Pages.
-
-## Quick start (editing)
-
-1. Open Obsidian.
-2. Choose **Open folder as vault** and select `content/`.
-3. Edit Markdown files under `content/`.
-4. Store images in `content/attachments/` and link them as `/attachments/filename.png`.
+This repository uses Hugo + Blowfish. Content is managed in Markdown under `content/` and deployed to GitHub Pages via GitHub Actions.
 
 ## Local preview
 
-Install Hugo (extended) version **0.155.2+** (current stable) and run:
+Install Hugo extended `0.155.2` or newer and run:
 
 ```bash
 hugo server -D
@@ -19,21 +12,18 @@ hugo server -D
 
 Open `http://localhost:1313`.
 
-## Publishing (GitHub Pages)
+## Publishing
 
-The GitHub Actions workflow builds and deploys Hugo automatically when you push to `main`.
-
-If you use a custom domain, ensure it is set in **Settings → Pages**.
+The workflow in `.github/workflows/deploy.yml` builds and deploys on `main`. It also validates generated output and internal links before deployment.
 
 ## Content map
 
-- `content/_index.md`: Homepage content (fully Markdown-driven)
-- `content/pages/`: Standalone pages (About, Skills, Contact, CV)
+- `content/_index.md`: Homepage
+- `content/pages/about.md`: About page (skills + contact/CV request form)
 - `content/projects/`: Project case studies
-- `content/notes/`: Notes and templates
 - `content/attachments/`: Images and files
 
 ## Theme
 
-The Blowfish theme is installed as a git submodule in `themes/blowfish`.
+Blowfish is included as a git submodule in `themes/blowfish`.
 Configuration lives in `config/_default/`.

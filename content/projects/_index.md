@@ -1,22 +1,21 @@
----
+﻿---
 title: "Projects"
 description: "Selected industrial automation projects and case studies."
 ---
 
-Below are selected projects. Replace the placeholders with real outcomes, metrics, and photos.
+This section highlights selected automation projects across commissioning, integration, and production optimization.
 
-## Featured
+## Featured case studies
 
 - [Battery Recycling PLC](/projects/battery-recycling-plc/)
-- [Edge IIoT Dashboard](/projects/edge-iiot-dashboard/)
+- [Edge IIoT Monitoring Dashboard](/projects/edge-iiot-dashboard/)
 - [Vision Inspection Cell](/projects/vision-inspection-cell/)
 
-## How I document projects
+## Delivery model
 
-Each project page includes:
+Each case study focuses on:
 
-- Scope and objectives
-- Hardware and software stack
-- Commissioning approach and results
-- Photos and diagrams
-- Lessons learned
+- Operational context and project objectives
+- Controls architecture and technology stack
+- Commissioning approach and validation flow
+- Outcomes, constraints, and lessons learned

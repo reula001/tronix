@@ -1,4 +1,4 @@
-[[main]]
+﻿[[main]]
   name = "Home"
   pageRef = "/"
   weight = 10
@@ -12,33 +12,3 @@
   name = "About"
   pageRef = "pages/about"
   weight = 30
-
-[[main]]
-  name = "Skills"
-  pageRef = "pages/skills"
-  weight = 40
-
-[[main]]
-  name = "Notes"
-  pageRef = "notes"
-  weight = 50
-
-[[main]]
-  name = "CV"
-  pageRef = "pages/cv"
-  weight = 60
-
-[[main]]
-  name = "Contact"
-  pageRef = "pages/contact"
-  weight = 70
-
-[[footer]]
-  name = "Contact"
-  pageRef = "pages/contact"
-  weight = 10
-
-[[footer]]
-  name = "CV"
-  pageRef = "pages/cv"
-  weight = 20

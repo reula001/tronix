@@ -1,4 +1,4 @@
----
+﻿---
 title: "Home"
 description: "Industrial automation engineer specializing in PLC programming, commissioning, and IIoT."
 ---
@@ -30,7 +30,7 @@ I design and commission reliable industrial automation systems. My focus is PLC 
 
 ---
 
-![PLC_Icon](/attachments/plc_text.svg)
+![PLC icon](/attachments/PLC_text.svg)
 
 ## Focus
 
@@ -42,15 +42,11 @@ I design and commission reliable industrial automation systems. My focus is PLC 
 ## Featured projects
 
 - [Battery Recycling PLC](/projects/battery-recycling-plc/)
-- [Edge IIoT Dashboard](/projects/edge-iiot-dashboard/)
+- [Edge IIoT Monitoring Dashboard](/projects/edge-iiot-dashboard/)
 - [Vision Inspection Cell](/projects/vision-inspection-cell/)
 
-## Notes
+## Work together
 
-- [Notes](/notes/)
+For project inquiries and CV requests, use the form on [About](/about/#contact-form).
 
-## Contact
 
-- Email: xxx
-- LinkedIn: Add your profile URL here
-- CV: [Download](/cv/)

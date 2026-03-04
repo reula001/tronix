@@ -1,6 +1,5 @@
----
+﻿---
 title: "Edge IIoT Monitoring Dashboard"
-status: "draft"
 description: "Edge gateway and dashboard for machine health and production metrics."
 roles:
   - Data integration
@@ -13,20 +12,24 @@ stack:
 
 ![Edge dashboard](/attachments/01_kip_1_1.png)
 
-## Summary
+## Project overview
 
-Edge gateway and dashboard that exposes machine health and production metrics. Replace with real details.
+This project implemented an edge data pipeline and local dashboard for machine monitoring. The solution connected PLC data sources to a unified model and exposed production and health metrics for operators and technical teams.
 
 ## Scope
 
-- Map PLC tags to a unified data model
-- Stream telemetry to a local dashboard
-- Add alerts and downtime tracking
+- Mapped PLC tags into a normalized telemetry model
+- Streamed selected signals to an on-site edge gateway
+- Built dashboards for status, throughput trends, and downtime context
+- Added alerting thresholds for early fault visibility
 
-## Results
+## Outcomes
 
-- Replace with outcomes (response time improvements, reduced downtime)
+- Better cross-shift visibility into equipment behavior and stoppage patterns
+- Shorter diagnosis cycles by consolidating key telemetry in one interface
+- Cleaner OT/IT handoff through explicit tag mapping and naming standards
 
-## Notes
+## Engineering notes
 
-- Add security and network segmentation details
+- Data quality was improved by filtering noisy tags at source level
+- Network segmentation and principle-of-least-privilege access were enforced during rollout

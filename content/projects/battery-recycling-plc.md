@@ -1,8 +1,7 @@
----
+﻿---
 title: "Battery Recycling PLC"
-status: "draft"
-date: 2025-06-30 # replace with the real date
-description: "PLC and HMI implementation for a battery recycling process."
+date: 2025-06-30
+description: "PLC and HMI implementation for a battery recycling process line."
 roles:
   - PLC programming
   - Commissioning
@@ -14,20 +13,23 @@ stack:
 
 ![Battery recycling PLC](/attachments/siemensbatteryrecycling_plc_v2_compressed_2__1.png)
 
-## Summary
+## Project overview
 
-High-level PLC and HMI implementation for a battery recycling process. Replace this summary with the real project scope and outcomes.
+This project delivered controls software and commissioning support for a battery recycling process line with multiple coordinated stations. The focus was stable sequencing, clear diagnostics, and safe recovery during abnormal conditions.
 
 ## Scope
 
-- Define sequences and interlocks
-- Implement alarms and diagnostics
-- Coordinate field IO and drives
-- Support FAT/SAT and handover
+- Designed sequence logic and interlocks across process modules
+- Implemented alarm handling and fault-state recovery paths
+- Structured HMI screens for operators and maintenance workflows
+- Coordinated IO and drive integration over Profinet
+- Supported FAT/SAT and final handover documentation
 
-## Results
+## Outcomes
 
-- Replace with measurable results (uptime, throughput, scrap reduction, energy savings)
+- Faster commissioning through reusable test checklists and clear startup states
+- Improved troubleshooting through consistent alarm taxonomy and context-rich diagnostics
+- Reduced restart risk after disturbances with explicit recovery sequences
 
 ## Photos
 
@@ -35,4 +37,6 @@ High-level PLC and HMI implementation for a battery recycling process. Replace t
 
 ## Lessons learned
 
-- Replace with 2 to 4 concrete lessons
+- Early agreement on alarm philosophy prevents late-stage HMI churn
+- Recovery-state logic should be designed as a first-class feature, not a patch
+- Commissioning logs become critical project assets when standardized from day one

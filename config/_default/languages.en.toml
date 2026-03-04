@@ -1,4 +1,4 @@
-languageCode = "en"
+﻿languageCode = "en"
 languageName = "English"
 weight = 1
 title = "Tronix"
@@ -13,11 +13,10 @@ title = "Tronix"
 
 [params.author]
   name = "René Ullrich"
-  email = "rene@tronix.no"
   image = "img/rene.png"
   headline = "Automation Engineer"
   bio = "PLC programming, commissioning, and OT/IT integration with Siemens TIA Portal and Beckhoff TwinCAT 3."
   links = [
-    { email = "mailto:rene@tronix.no" },
     { linkedin = "https://www.linkedin.com/in/rene-ullrich" }
   ]
+
